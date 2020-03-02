@@ -24,10 +24,10 @@ spec = Gem::Specification.new do |s|
   # cross platform gem dependencies
   #s.add_dependency('gli')
   #s.add_dependency('paint')
-  s.add_development_dependency('bundler',        '~> 1.0')
-  s.add_development_dependency('rake',           '>= 9.0')
+  s.add_development_dependency('bundler',        '~> 2.0')
+  s.add_development_dependency('rake',           '>= 13.0')
   s.add_development_dependency('minitest',       '~> 5.0')
-  s.add_development_dependency('simplecov',      '~> 0.7.1')
+  s.add_development_dependency('simplecov',      '~> 0.18')
   s.add_development_dependency('yard',           '~> 0.8')
   s.add_development_dependency('inch',           '~> 0.6')
   s.add_development_dependency('guard-minitest', '~> 2.0')

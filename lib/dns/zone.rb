@@ -131,7 +131,6 @@ module DNS
       #     with a ";" (semicolon). 
 
       entries = []
-      mode = :line
       entry = ''
 
       parentheses_ref_count = 0
@@ -151,7 +150,6 @@ module DNS
         has_quotes = quotes > 0
 
         parentheses = entry.count('()')
-        has_parentheses = parentheses > 0
 
         if has_quotes
           character_strings = entry.scan(/("(?:[^"\\]+|\\.)*")/).join(' ')
